@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(26, 25, 24);
+}
+
+.search {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0%;
+
+}
+
+.search input {
+  flex-grow: 1;
+  border-radius: 5px;
+  height: 35px;
+  border: none;
+  padding: 0px 10px;
+  background-color: rgb(53, 54, 54);
+}
+
+.search input:active {
+  border: none;
+}
+
+.search button,
+button {
+  height: 35px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(51, 147, 226);
+}
+
+.search~p {
+  margin: 0% 20px;
+  color: white;
+
+
+}
+
+.search~p span {
+  color: rgb(51, 147, 226);
+  cursor: pointer;
+}
+
+
+.display {
+  border: 2px dashed dodgerblue;
+  height: 80vh;
+  margin: 30px 20px 0px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  color: white;
+}
+
+.display h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 10px;
+}
+
+.display div {
+  border: 2px dashed dodgerblue;
+  width: 20%;
+  height: 50%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  text-align: center;
+}
+
+.display table {
+
+  width: 20%;
+  margin: 20px 0px;
+}
+
+td {
+  border-top: 2px;
+  border-left: 0px;
+  border-bottom: 2px;
+  border-right: 0px;
+  border-style: dashed;
+  border-color: dodgerblue;
+  height: 30px;
+
+  text-align: center;
+
+}
+
+
+.image {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
