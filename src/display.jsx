@@ -11,7 +11,7 @@ const Display = (props) => {
             <div className="display">
 
                 <h1>{props.name}</h1>
-                <div> {!props.found && !props.error && <h4 h4 > Please Submit a <br /> Pokemon!</h4>}
+                <div> {!props.found && !props.error && <h4> Please Submit a <br /> Pokemon!</h4>}
 
                     {props.found && !props.error && <img className="image" src={props.image} alt="" srcset="" />}
                     {props.error && !props.found && <><h3 >Error Finding Your Pokemon</h3>
